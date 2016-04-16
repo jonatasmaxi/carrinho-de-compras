@@ -16,7 +16,7 @@ public class Produto {
 
     @Override
     public boolean equals(Object obj) {
-        return equals((Produto) obj);
+        return equals(obj);
     }
 
     public boolean equals(Produto obj) {
